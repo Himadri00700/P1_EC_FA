@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+.tableManDiv {
+	background-color:white; 
+	border-radius: 10px;
+	height: 300px;
+  	overflow: auto;
+}
+
+#tableMan {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: none;
+}
+
+.tdOfTableMan {
+	text-align: cenert;
+	padding: 8px;
+}
+.thOfTableMan {
+	text-align: center;
+  	padding: 8px;
+}
+
+.trOfTableMan:nth-child(even) {
+	background-color: #238891;
+	color:white;
+}

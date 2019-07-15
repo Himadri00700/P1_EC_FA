@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+
+.jumbotron-flat {
+  background-color: solid rgb(190, 186, 186);
+  
+  border: 1px solid #4DB8FF;
+  background: rgb(184, 177, 177);
+  width: 100%;
+text-align: center;
+overflow: auto;
+}
+
+.paymentAmt {
+    font-size: 80px; 
+}
+
+.centered {
+    text-align: center;
+}
+
+.title {
+ padding-top: 15px;   
+}
