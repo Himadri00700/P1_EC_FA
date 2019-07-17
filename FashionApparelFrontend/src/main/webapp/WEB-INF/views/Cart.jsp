@@ -4,6 +4,8 @@
 	
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
+<script type="text/javascript" src="${pageContext.request.contextPath}/resources/JavaScriptFiles/CartQuantity.js"></script>
+
 <body style="background-color: #f2f2f2;">
 	<div class="container-fluid">
 	<div style="background-color:#ff9933; padding:5px;"><h2 align="center">Cart Details</h2></div>
@@ -25,7 +27,7 @@
 	                </thead>
 	                <tbody>
 	                	<c:forEach items="${listCartItems}" var="cartItem">
-	                		<form action="<c:url value="/updateCartItem/${cartItem.cartItemId}"/>" method="get">
+	                		<form action="<c:url value="/updateCartItem/${cartItem.cartItemId}"/>" onsubmit="return validate()" method="get">
 								<tr>
 			                        <td class="col-lg-4 col-sm-5 col-md-5 col-xs-7">
 										<div class="media">

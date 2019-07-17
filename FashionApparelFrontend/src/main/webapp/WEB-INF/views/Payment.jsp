@@ -58,7 +58,7 @@
 									</div>
 									<div class="form-group expiration required">
 										<label class="control-label">Year</label>
-										<input class="form-control" name="validYear" placeholder="YYYY" size="4" type="text">
+										<input id="year" class="form-control" name="validYear" placeholder="YYYY" size="4" type="text">
 									</div>
 								</div>
 								
